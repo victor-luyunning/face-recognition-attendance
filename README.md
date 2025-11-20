@@ -208,7 +208,9 @@ face-recognition-attendance/
 ├── evaluation_report_*.json           # Evaluation results
 ├── *_export.csv                       # Exported attendance reports
 │
+├── Task2_P02_Project_Report_zh_CN.md  # Project report Markdown (Chinese)
 ├── Task2_P02_Project_Report_zh_CN.pdf # Project report PDF (Chinese)
+├── Task2_P02_Project_Report.md        # Project report Markdown
 ├── Task2_P02_Project_Report.pdf       # Project report PDF
 ├── Task2_P02_Project_Slides.pptx       # Project report PPT 
 └── README.md                          # This file
