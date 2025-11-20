@@ -194,23 +194,23 @@ pip install --no-cache-dir face_recognition
 ```
 face-recognition-attendance/
 │
-├── student_registration.py      # Main Streamlit application
-├── evaluate_accuracy.py          # Evaluation tool for testing
-├── requirements.txt              # Python dependencies
-├── students.db                   # SQLite database (auto-created)
+├── student_registration.py            # Main Streamlit application
+├── evaluate_accuracy.py               # Evaluation tool for testing
+├── requirements.txt                   # Python dependencies
+├── students.db                        # SQLite database (auto-created)
 │
-├── test_data/                    # Test photos for evaluation
+├── test_data/                         # Test photos for evaluation
 │   ├── photo1.jpg
 │   ├── photo2.jpg
 │   └── ...
 │
-├── ground_truth.json             # Ground truth labels for evaluation
-├── evaluation_report_*.json      # Evaluation results
-├── *_export.csv                  # Exported attendance reports
+├── ground_truth.json                  # Ground truth labels for evaluation
+├── evaluation_report_*.json           # Evaluation results
+├── *_export.csv                       # Exported attendance reports
 │
-├── 报告.pdf                      # Project report PDF (Chinese)
-├── Task2_P02_Project_Report.pdf  # Project report PDF 
-└── README.md                     # This file
+├── Task2_P02_Project_Report_zh_CN.pdf # Project report PDF (Chinese)
+├── Task2_P02_Project_Report.pdf       # Project report PDF 
+└── README.md                          # This file
 ```
 
 ## 🧪 Evaluation Tool
@@ -229,7 +229,7 @@ This will:
 
 ## 📚 Documentation
 
-- **Academic Report**: See `Task2_P02_Project_Report.pdf` or `报告.pdf` for detailed system design and evaluation
+- **Academic Report**: See `Task2_P02_Project_Report.pdf` or `Task2_P02_Project_Report_zh_CN.pdf` for detailed system design and evaluation
 - **API Reference**: All functions documented in `student_registration.py`
 - **Database Schema**: See Section 4.3 in report
 
