@@ -3,7 +3,7 @@
 An intelligent attendance management system based on classroom group photos, using advanced facial recognition technology to automate the attendance process. Built with Streamlit and Python, this system provides a zero-hardware-cost solution for educational institutions, achieving imperceptible attendance marking in real classroom scenarios.
 
 > 🎓 **Academic Project**: SEU Pattern Classification Course Project  
-> 👥 **Authors**: Duan Jiawen (71123329), Yang Xirui (71123331)  
+> 👥 **Authors**: Jiawen Duan, Xirui Yang
 > 🏫 **Institution**: Southeast University  
 > 📅 **Date**: November 2025
 
@@ -11,7 +11,7 @@ An intelligent attendance management system based on classroom group photos, usi
 
 ### 🎯 Core Innovations
 - **Multi-Photo Attendance**: Upload multiple classroom group photos for comprehensive coverage
-- **Robust Face Detection**: Triple detection mechanism (HOG → CNN → Enhanced) with 96.7% detection rate
+- **Robust Face Detection**: Triple detection mechanism (HOG → CNN → Enhanced) with 90.0% detection rate
 - **Automatic Deduplication**: Maximum similarity algorithm prevents duplicate marking across photos
 - **Optimized Threshold**: Custom threshold (0.42) balancing 87.8% precision and 90% recall
 - **Zero Hardware Cost**: Pure software solution, CPU-only, no GPU required
@@ -136,7 +136,7 @@ Tested on real university classroom (40-55 students, 9 class sessions):
 | **Precision** | 87.8% | Correctly recognized / Total recognized |
 | **Recall** | 90.0% | Correctly recognized / Actually present |
 | **F1 Score** | 88.9% | Harmonic mean of precision and recall |
-| **Detection Rate** | 96.7% | Face detection success rate |
+| **Detection Rate** | 90.0% | Face detection success rate |
 | **Processing Time** | 8.7s | Average time per class session (5-10 photos) |
 | **False Positive** | <1.8% | Incorrect recognition rate |
 
@@ -209,7 +209,8 @@ face-recognition-attendance/
 ├── *_export.csv                       # Exported attendance reports
 │
 ├── Task2_P02_Project_Report_zh_CN.pdf # Project report PDF (Chinese)
-├── Task2_P02_Project_Report.pdf       # Project report PDF 
+├── Task2_P02_Project_Report.pdf       # Project report PDF
+├── Task2_P02_Project_Slides.pptx       # Project report PPT 
 └── README.md                          # This file
 ```
 
