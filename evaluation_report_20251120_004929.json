@@ -1,0 +1,215 @@
+{
+  "timestamp": "2025-11-20 00:49:29",
+  "threshold": 0.42,
+  "overall_metrics": {
+    "precision": 0.8780487804878049,
+    "recall": 0.9,
+    "f1_score": 0.888888888888889,
+    "accuracy": 0.9,
+    "total_photos": 9,
+    "total_students": 40,
+    "true_positives": 36,
+    "false_positives": 5,
+    "false_negatives": 4
+  },
+  "detailed_results": [
+    {
+      "photo": "photo1.jpeg",
+      "true_ids": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "predicted_ids": [
+        26,
+        27,
+        28,
+        25,
+        24
+      ],
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "photo": "photo2.jpeg",
+      "true_ids": [
+        6,
+        7,
+        8,
+        17
+      ],
+      "predicted_ids": [
+        7,
+        35,
+        6,
+        17
+      ],
+      "tp": 3,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    },
+    {
+      "photo": "photo3.jpeg",
+      "true_ids": [
+        6,
+        26,
+        28,
+        31,
+        33
+      ],
+      "predicted_ids": [
+        28,
+        13,
+        6,
+        33,
+        31
+      ],
+      "tp": 4,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002
+    },
+    {
+      "photo": "photo4.jpeg",
+      "true_ids": [
+        3,
+        6,
+        16,
+        32
+      ],
+      "predicted_ids": [
+        32,
+        16,
+        3,
+        12
+      ],
+      "tp": 3,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    },
+    {
+      "photo": "photo5.jpeg",
+      "true_ids": [
+        2,
+        19,
+        21,
+        51,
+        56
+      ],
+      "predicted_ids": [
+        51,
+        39,
+        21,
+        2,
+        19,
+        52
+      ],
+      "tp": 4,
+      "fp": 2,
+      "fn": 1,
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1": 0.7272727272727272
+    },
+    {
+      "photo": "photo6.jpeg",
+      "true_ids": [
+        11,
+        40,
+        53
+      ],
+      "predicted_ids": [
+        53,
+        11,
+        40
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "photo": "photo7.jpeg",
+      "true_ids": [
+        22,
+        26,
+        27,
+        31,
+        37,
+        54,
+        55
+      ],
+      "predicted_ids": [
+        27,
+        26,
+        55,
+        22,
+        37,
+        31,
+        54
+      ],
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "photo": "photo8.jpeg",
+      "true_ids": [
+        26,
+        54,
+        55
+      ],
+      "predicted_ids": [
+        26,
+        55,
+        54
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "photo": "photo9.jpeg",
+      "true_ids": [
+        1,
+        23,
+        33,
+        56
+      ],
+      "predicted_ids": [
+        33,
+        23,
+        1,
+        56
+      ],
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  ]
+}
