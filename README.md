@@ -259,8 +259,8 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact
 
-- **Duan Jiawen**: 1146102617@qq.com
-- **Yang Xirui**: 3245105379@qq.com
+- **Jiawen Duan**: 1146102617@qq.com
+- **Xirui Yang**: 3245105379@qq.com
 - **Project Link**: https://github.com/victor-luyunning/face-recognition-attendance
 
 ## 🌟 Star History
